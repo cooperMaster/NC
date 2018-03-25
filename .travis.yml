@@ -9,7 +9,7 @@ script:
   - npm run build
 
 after_success:
-  - cd dist ; cp -R ../docs/WS/images WS/images ; cp -R ../docs/GX/images GX/images ; cp -R ../docs/WS30/images WS30/images
+  - cd dist ; cp -R ../docs/WS/images WS/images ; cp -R ../docs/GX/images GX/images ; cp -R ../docs/WS30/images WS30/images ; cp -R ../docs/LN/images LN/images
   - git init
   - git config user.name "${GH_USER_NAME}"
   - git config user.email "{GH_USER_EMAIL}"
